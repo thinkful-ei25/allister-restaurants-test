@@ -126,9 +126,9 @@ function runServer(databaseUrl, port = PORT) {
       if (err) {
         return reject(err);
       }
-    );
+    });
   });
-}
+  }
 
 // this function closes the server, and returns a promise. we'll
 // use it in our integration tests later.
